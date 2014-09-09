@@ -116,8 +116,29 @@ PRODUCT_COPY_FILES += \
     vendor/moto/condor/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/moto/condor/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/moto/condor/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
-    vendor/moto/condor/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/moto/condor/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
+    vendor/moto/condor/proprietary/etc/gps.conf:system/etc/gps.conf \
+    vendor/moto/condor/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
+    vendor/moto/condor/proprietary/lib/libloc_ds_api.so:system/lib/libloc_ds_api.so \
+    vendor/moto/condor/proprietary/vendor/lib/libalarmservice_jni.so:system/vendor/lib/libalarmservice_jni.so \
+    vendor/moto/condor/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
+    vendor/moto/condor/proprietary/vendor/lib/libizat_core.so:system/vendor/lib/libizat_core.so \
+    vendor/moto/condor/proprietary/vendor/lib/liblbs_core.so:system/vendor/lib/liblbs_core.so \
+    vendor/moto/condor/proprietary/vendor/lib/liblocationservice.so:system/vendor/lib/liblocationservice.so \
+    vendor/moto/condor/proprietary/vendor/lib/libloc_ext.so:system/vendor/lib/libloc_ext.so \
     vendor/moto/condor/proprietary/vendor/lib/liblowi_client.so:system/vendor/lib/liblowi_client.so \
+    vendor/moto/condor/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/moto/condor/proprietary/vendor/lib/libquipc_ulp_adapter.so:system/vendor/lib/libquipc_ulp_adapter.so \
+    vendor/moto/condor/proprietary/vendor/lib/libulp2.so:system/vendor/lib/libulp2.so \
+    vendor/moto/condor/proprietary/vendor/lib/libxtadapter.so:system/vendor/lib/libxtadapter.so \
+    vendor/moto/condor/proprietary/vendor/lib/libxtwifi_ulp_adaptor.so:system/vendor/lib/libxtwifi_ulp_adaptor.so \
+    vendor/moto/condor/proprietary/vendor/lib/libxtwifi_zpp_adaptor.so:system/vendor/lib/libxtwifi_zpp_adaptor.so \
+    vendor/moto/condor/proprietary/vendor/lib/libxt_native.so:system/vendor/lib/libxt_native.so \
+    vendor/moto/condor/proprietary/etc/izat.conf:system/etc/izat.conf \
+    vendor/moto/condor/proprietary/etc/quipc.conf:system/etc/quipc.conf \
+    vendor/moto/condor/proprietary/etc/sap.conf:system/etc/sap.conf \
+    vendor/moto/condor/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/moto/condor/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/moto/condor/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/moto/condor/proprietary/lib/libqmimotext.so:system/lib/libqmimotext.so \
     vendor/moto/condor/proprietary/lib/libmdmcutback.so:system/lib/libmdmcutback.so \
@@ -126,6 +147,11 @@ PRODUCT_COPY_FILES += \
     vendor/moto/condor/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so \
     vendor/moto/condor/proprietary/lib/libpkip.so:system/lib/libpkip.so \
     vendor/moto/condor/proprietary/bin/tcmd:system/bin/tcmd \
+    vendor/moto/condor/proprietary/etc/permissions/qcnvitems.xml:system/etc/permissions/qcnvitems.xml \
+    vendor/moto/condor/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
+    vendor/moto/condor/proprietary/app/qcrilmsgtunnel.apk:system/app/qcrilmsgtunnel.apk \
+    vendor/moto/condor/proprietary/framework/qcnvitems.jar:system/framework/qcnvitems.jar \
+    vendor/moto/condor/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/moto/condor/proprietary/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so:system/vendor/lib/rfsa/adsp/libadsp_denoise_skel.so \
     vendor/moto/condor/proprietary/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so:system/vendor/lib/rfsa/adsp/libadsp_jpege_skel.so \
     vendor/moto/condor/proprietary/vendor/lib/libmmcamera_ar0261.so:system/vendor/lib/libmmcamera_ar0261.so \
@@ -181,6 +207,9 @@ PRODUCT_COPY_FILES += \
     vendor/moto/condor/proprietary/vendor/lib/libril-qcril-hook-oem.so:system/vendor/lib/libril-qcril-hook-oem.so \
     vendor/moto/condor/proprietary/lib/libmotext_inf.so:system/lib/libmotext_inf.so \
     vendor/moto/condor/proprietary/lib/libril.so:system/lib/libril.so \
+    vendor/moto/condor/proprietary/app/com.qualcomm.location.apk:system/app/com.qualcomm.location.apk \
+    vendor/moto/condor/proprietary/app/com.qualcomm.services.location.apk:system/app/com.qualcomm.services.location.apk \
+    vendor/moto/condor/proprietary/app/MotGeoFenceSvc.apk:system/app/MotGeoFenceSvc.apk \
     vendor/moto/condor/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/moto/condor/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/moto/condor/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
