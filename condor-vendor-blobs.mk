@@ -45,6 +45,8 @@ PRODUCT_COPY_FILES += \
     vendor/moto/condor/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
     vendor/moto/condor/proprietary/etc/firmware/synaptics-s2316i-13101703-175833-condor.tdat:system/etc/firmware/synaptics-s2316i-13101703-175833-condor.tdat \
     vendor/moto/condor/proprietary/etc/firmware/synaptics-s2316t-13101703-175833-condor.tdat:system/etc/firmware/synaptics-s2316t-13101703-175833-condor.tdat \
+    vendor/moto/condor/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_nv.bin \
+    vendor/moto/condor/proprietary/etc/firmware/wlan/prima/WCNSS_qcom_wlan_factory_nv.bin:system/etc/firmware/wlan/prima/WCNSS_qcom_wlan_factory_nv.bin \
     vendor/moto/condor/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
     vendor/moto/condor/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/moto/condor/proprietary/vendor/lib/libthermalclient.so:system/vendor/lib/libthermalclient.so \
