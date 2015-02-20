@@ -112,16 +112,16 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/vendor/lib/libmmcamera2_vpe_module.so:system/vendor/lib/libmmcamera2_vpe_module.so \
     vendor/motorola/condor/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
     vendor/motorola/condor/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
-    vendor/motorola/condor/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
-    vendor/motorola/condor/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
-    vendor/motorola/condor/proprietary/vendor/lib/libmm-abl-oem.so:system/vendor/lib/libmm-abl-oem.so \
-    vendor/motorola/condor/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/motorola/condor/proprietary/lib/libadropbox.so:system/lib/libadropbox.so \
     vendor/motorola/condor/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
     vendor/motorola/condor/proprietary/bin/dropboxd:system/bin/dropboxd \
     vendor/motorola/condor/proprietary/bin/subsystem_ramdump:system/bin/subsystem_ramdump \
     vendor/motorola/condor/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
+    vendor/motorola/condor/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/motorola/condor/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/motorola/condor/proprietary/lib/libmdmdetect.so:system/lib/libmdmdetect.so \
+    vendor/motorola/condor/proprietary/vendor/lib/libconfigdb.so:system/vendor/lib/libconfigdb.so \
+    vendor/motorola/condor/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/motorola/condor/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/motorola/condor/proprietary/bin/location-mq:system/bin/location-mq \
     vendor/motorola/condor/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
@@ -222,7 +222,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/vendor/lib/libtime_genoff.so:system/vendor/lib/libtime_genoff.so \
     vendor/motorola/condor/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/motorola/condor/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
-    vendor/motorola/condor/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
     vendor/motorola/condor/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/motorola/condor/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/motorola/condor/proprietary/bin/kpgather:system/bin/kpgather \
