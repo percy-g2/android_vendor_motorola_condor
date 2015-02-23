@@ -229,8 +229,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/bin/ptt_socket_app:system/bin/ptt_socket_app \
     vendor/motorola/condor/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
     vendor/motorola/condor/proprietary/bin/mbm_spy:system/bin/mbm_spy \
-    vendor/motorola/condor/proprietary/bin/fmconfig:system/bin/fmconfig \
-    vendor/motorola/condor/proprietary/bin/fm_qsoc_patches:system/bin/fm_qsoc_patches \
     vendor/motorola/condor/proprietary/bin/rild:system/bin/rild \
     vendor/motorola/condor/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/motorola/condor/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
