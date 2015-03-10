@@ -30,6 +30,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/condor/proprietary/vendor/lib/libllvm-qcom.so:system/vendor/lib/libllvm-qcom.so \
     vendor/motorola/condor/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/motorola/condor/proprietary/vendor/lib/libOpenVG.so:system/vendor/lib/libOpenVG.so \
+    vendor/motorola/condor/proprietary/vendor/lib/libRSDriver_adreno.so:system/vendor/lib/libRSDriver_adreno.so\
+    vendor/motorola/condor/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so\
+    vendor/motorola/condor/proprietary/vendor/lib/librs_adreno_sha1.so:system/vendor/lib/librs_adreno_sha1.so\
+    vendor/motorola/condor/proprietary/vendor/lib/libscale.so:system/vendor/lib/libscale.so\
     vendor/motorola/condor/proprietary/vendor/lib/egl/eglsubAndroid.so:system/vendor/lib/egl/eglsubAndroid.so \
     vendor/motorola/condor/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
     vendor/motorola/condor/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
